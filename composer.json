@@ -1,0 +1,33 @@
+{
+	"name": "mikitosina1/basemodule",
+	"description": "Widget for duplicate methods and base code for mostly my modules",
+	"keywords": ["laravel", "module", "base module", "mikitosina1", "BaseModule"],
+	"authors": [
+		{
+			"name": "Mykyta Zarichnyi",
+			"email": "mikitosina27@gmail.com"
+		}
+	],
+	"extra": {
+		"laravel": {
+			"providers": [],
+			"aliases": {}
+		}
+	},
+	"require": {
+		"php": "^8.1",
+		"laravel/framework": "^10.10",
+		"laravel/ui": "^4.5",
+		"nwidart/laravel-modules": "^10.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Modules\\BaseModule\\": "/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Modules\\ModuleManager\\Tests\\": "tests/"
+		}
+	}
+}
