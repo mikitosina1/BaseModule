@@ -11,8 +11,8 @@ class BaseProviderUtils extends ServiceProvider
 	{
 		$paths = [];
 		foreach (config('view.paths') as $path) {
-			if (is_dir($path.'/modules/'.$moduleNameLower)) {
-				$paths[] = $path.'/modules/'.$moduleNameLower;
+			if (is_dir($path . '/modules/' . $moduleNameLower)) {
+				$paths[] = $path . '/modules/' . $moduleNameLower;
 			}
 		}
 
